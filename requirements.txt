@@ -15,5 +15,4 @@ pyasn1
 Flask-WhooshAlchemy
 sqlalchemy-migrate==0.10.0
 itsdangerous
-pyOpenSSL==16.2.0
 flask_mail
