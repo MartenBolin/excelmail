@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block nav %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <div class="row">
+        <div class="panel panel-info">
+            <div class="panel panel-heading">
+                Write the subject of the e-mail aswell as the message to be sent. Pick the file to be used and click submit!
+            </div>
+            <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Subject:</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Text:</label>
+                        <input type="text" class="form-control" id="pwd">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
